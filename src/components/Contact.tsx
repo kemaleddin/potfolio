@@ -6,8 +6,8 @@ const Contact = () => {
     { label: 'Email', href: 'mailto:kemalettin.sargin@gmail.com', icon: <Mail size={16} /> },
     { label: 'GitHub', href: 'https://github.com/kemaleddin', icon: <Github size={16} /> },
     { label: 'LinkedIn', href: 'https://linkedin.com/in/kemalettinsargın', icon: <Linkedin size={16} /> },
-    { label: 'WhatsApp', href: 'https://wa.me/905344954542', icon: <MessageCircle size={16} /> },
-    { label: 'Call', href: 'tel:905344954542', icon: <Phone size={16} /> },
+    { label: 'WhatsApp', href: 'https://wa.me/+905344954542', icon: <MessageCircle size={16} /> },
+    { label: 'Call', href: 'tel:+905344954542', icon: <Phone size={16} /> },
   ]
 
   return (
@@ -36,7 +36,7 @@ const Contact = () => {
 
         <footer className="footer">
           <p className="footer-text">
-            © 2025 Kemalettin Sargın
+            ©{new Date().getFullYear()} Kemalettin Sargın
           </p>
         </footer>
       </div>
