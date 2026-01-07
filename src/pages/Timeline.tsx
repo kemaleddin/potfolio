@@ -57,6 +57,9 @@ const Timeline = () => {
                             <h3 className="timeline-title">{exp.title}</h3>
                             <h4 className="timeline-company">{exp.company}</h4>
                             <p className="timeline-description">{exp.description}</p>
+                            <Link to="/work" className="timeline-project-link">
+                                View Projects
+                            </Link>
                         </div>
                     </div>
                 ))}

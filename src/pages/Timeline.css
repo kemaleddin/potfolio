@@ -137,3 +137,18 @@
         height: 40px;
     }
 }
+
+.timeline-project-link {
+    display: inline-block;
+    margin-top: 1rem;
+    color: #3DDC84;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.9rem;
+    transition: opacity 0.3s ease;
+}
+
+.timeline-project-link:hover {
+    opacity: 0.8;
+    text-decoration: underline;
+}
