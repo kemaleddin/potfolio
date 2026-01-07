@@ -1,0 +1,224 @@
+{
+    "hero": {
+        "title": "Full-Stack Software Developer",
+        "subtitle": ".NET Core • ASP.NET Core MVC • Angular • Android",
+        "description": "Experienced in building scalable and maintainable applications used by real users in production.",
+        "viewTimeline": "View Experience Timeline",
+        "contact": "Contact"
+    },
+    "timeline": {
+        "title": "Professional Journey",
+        "backToHome": "Back to Home",
+        "viewProjects": "View Projects",
+        "experiences": [
+            {
+                "id": 1,
+                "title": "Senior Full-Stack Developer & Software Consultant",
+                "company": "Freelance",
+                "date": "2022 - Present",
+                "description": "Building end-to-end E-commerce solutions using .NET 8, PostgreSQL, and Angular with Onion Architecture, CQRS, and MediatR. Designed Bluetooth serial adapter hardware and integrated low-level communication protocols for hardware-software synchronization."
+            },
+            {
+                "id": 2,
+                "title": "Senior Android & Backend Developer",
+                "company": "Orjin Yazılım",
+                "date": "2018 - 2022",
+                "description": "Developed native Android applications for enterprise fleet, construction, and maintenance management systems. Engineered scalable .NET Web APIs to manage high-traffic data synchronization and complex business logic."
+            },
+            {
+                "id": 3,
+                "title": "Android Application Developer",
+                "company": "Kuark Dijital",
+                "date": "2013 - 2017",
+                "description": "Managed the full lifecycle of 15+ Android applications published on Google Play Store. Specialized in SDK integrations, UI/UX optimization, and maintaining app performance across diverse categories during a 4.5-year tenure."
+            }
+        ]
+    },
+    "work": {
+        "title": "Work",
+        "relatedProjects": "Related Projects",
+        "noProjects": "No projects found for this experience.",
+        "projects": [
+            {
+                "id": 101,
+                "experienceId": 1,
+                "title": "E-Commerce & Production Management System",
+                "description": "Developed a comprehensive e-commerce and production management system with Clean Architecture, integrating PayTR and Kuveyt Türk payment gateways.",
+                "tech": ".NET 8 • ASP.NET Core MVC • EF Core • PostgreSQL • CQRS • MediatR",
+                "type": "Full-Stack"
+            },
+            {
+                "id": 102,
+                "experienceId": 1,
+                "title": "Business Dashboard & Management Web App",
+                "description": "Designed a web-based dashboard for business reporting and role-based authorization, including an upgrade of the frontend from Angular 11 to 15.",
+                "tech": ".NET Core • Angular • EF Core • SQL Server",
+                "type": "Web"
+            },
+            {
+                "id": 103,
+                "experienceId": 2,
+                "title": "O-MEGA (Construction Management)",
+                "description": "An enterprise-level construction site management application. Originally started with Java and later migrated to Kotlin using MVVM architecture.",
+                "tech": "Android • Kotlin • Room • MVVM • Retrofit • Firebase",
+                "type": "Mobile"
+            },
+            {
+                "id": 104,
+                "experienceId": 2,
+                "title": "PBT Pro (Corporate Asset & Maintenance)",
+                "description": "A corporate asset and maintenance management software sharing the same codebase as O-mega but with distinct modules and UI.",
+                "tech": "Android • Kotlin • .NET Web API 2 • Dapper • SQL Server",
+                "type": "Mobile & Backend"
+            },
+            {
+                "id": 105,
+                "experienceId": 2,
+                "title": "ATS Pro (Fleet Tracking System)",
+                "description": "A vehicle fleet tracking system featuring automated license plate recognition via Google Vision API.",
+                "tech": "Kotlin • Google Play Services Vision • Firebase • Retrofit",
+                "type": "Mobile"
+            },
+            {
+                "id": 106,
+                "experienceId": 2,
+                "title": "Fixed Asset Management",
+                "description": "An application for managing inventory that connects to thermal barcode printers via Bluetooth for label printing.",
+                "tech": "Kotlin • Kodein-DI • Bluetooth Printing • Google Vision API",
+                "type": "Mobile"
+            },
+            {
+                "id": 107,
+                "experienceId": 3,
+                "title": "Bursadabugün Media Suite",
+                "description": "Developed full-featured news, radio, and TV streaming applications for both phone and tablet versions from scratch.",
+                "tech": "Android • Java • aacdecoder • Play Services Ads • SlidingMenu",
+                "type": "Mobile"
+            },
+            {
+                "id": 108,
+                "experienceId": 3,
+                "title": "BKM Kitap",
+                "description": "The official mobile application for one of Turkey's major bookstores, focusing on retail and user engagement.",
+                "tech": "Android • Java • Retrofit • Gson • Firebase Messaging",
+                "type": "Mobile"
+            },
+            {
+                "id": 109,
+                "experienceId": 3,
+                "title": "Samam (Smart Kitchen IoT)",
+                "description": "An intelligent kitchen application developed for a Qatar-based company, featuring gas leak detection and environmental controls.",
+                "tech": "Android • Eclipse-Paho MQTT Client • Retrofit • Gson",
+                "type": "Mobile/IoT"
+            },
+            {
+                "id": 110,
+                "experienceId": 3,
+                "title": "Kodlamasal",
+                "description": "A Scratch-like block coding educational application designed for children.",
+                "tech": "Android • libgdx • Firebase Auth • Firebase Database",
+                "type": "Mobile/Education"
+            },
+            {
+                "id": 111,
+                "experienceId": 3,
+                "title": "Buca Engelsiz Rota",
+                "description": "A navigation app for the visually impaired that uses GPS to calculate nearby objects and provides voice guidance.",
+                "tech": "Android • Google Maps API • Play Services Location",
+                "type": "Mobile"
+            },
+            {
+                "id": 112,
+                "experienceId": 3,
+                "title": "Neo (Nilüfer Etkinlik Oyunları)",
+                "description": "A competition app where users earn points by answering questions via QR codes at event locations.",
+                "tech": "Android • OkHttp • Play Services Vision • Robospice",
+                "type": "Mobile"
+            },
+            {
+                "id": 113,
+                "experienceId": 3,
+                "title": "Tofaş Spor Official",
+                "description": "The official Android application for Tofaş Sports Club, providing news and updates.",
+                "tech": "Android • Java • Retrofit • Google Play Services",
+                "type": "Mobile"
+            },
+            {
+                "id": 114,
+                "experienceId": 3,
+                "title": "Bursaspor Mobile",
+                "description": "Rewrote the existing application with code improvements and integrated online radio for both tablet and phone versions.",
+                "tech": "Android • Java • OkHttp • Google Play Services Analytics",
+                "type": "Mobile"
+            },
+            {
+                "id": 115,
+                "experienceId": 3,
+                "title": "Olay Haber",
+                "description": "A comprehensive news application with YouTube and Dailymotion video integrations.",
+                "tech": "Android • OkHttp • YouTube Android Library • Fabric",
+                "type": "Mobile"
+            },
+            {
+                "id": 116,
+                "experienceId": 3,
+                "title": "Fixture Maker",
+                "description": "A league and tournament management app with a complex SQLite database consisting of 12 tables.",
+                "tech": "Android • SQLite • Facebook SDK • Play Services Ads",
+                "type": "Mobile"
+            },
+            {
+                "id": 117,
+                "experienceId": 3,
+                "title": "Buca Vatandaş Katılım",
+                "description": "A citizen participation app allowing users to report location-based issues by attaching photos.",
+                "tech": "Android • ArcGIS Android SDK • Maps API • Retrofit2",
+                "type": "Mobile"
+            },
+            {
+                "id": 118,
+                "experienceId": 3,
+                "title": "Municipal Applications (Nilüfer & Odunpazarı)",
+                "description": "Developed and maintained official municipal service applications for regional governments.",
+                "tech": "Android • OkHttp • Retrofit • Google Maps",
+                "type": "Mobile"
+            },
+            {
+                "id": 119,
+                "experienceId": 3,
+                "title": "Hayvancılık Akademisi",
+                "description": "An educational application dedicated to animal husbandry and agricultural training.",
+                "tech": "Android • Retrofit • Gson • Universal Image Loader",
+                "type": "Mobile"
+            },
+            {
+                "id": 120,
+                "experienceId": 3,
+                "title": "Specialized News & Catalogs",
+                "description": "Development of RTL-supported catalogs (Arian Design) and subscription-based digital newspapers (Çağdaş Gazete).",
+                "tech": "Android • Java • Custom UI Components",
+                "type": "Mobile"
+            }
+        ]
+    },
+    "breadcrumb": {
+        "home": "Home",
+        "timeline": "Timeline",
+        "work": "Work"
+    },
+    "contact": {
+        "title": "Get in Touch",
+        "description": "Open to discussing new projects and opportunities.",
+        "footer": "© {{year}} Kemalettin Sargın"
+    },
+    "skills": {
+        "title": "Skills & Technologies",
+        "categories": {
+            "Backend": "Backend",
+            "Frontend": "Frontend",
+            "Mobile": "Mobile",
+            "Database": "Database",
+            "DevOps": "DevOps"
+        }
+    }
+}

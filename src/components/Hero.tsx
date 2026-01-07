@@ -1,7 +1,10 @@
 import { Link } from 'react-router-dom'
+import { useTranslation } from 'react-i18next'
 import './Hero.css'
 
 const Hero = () => {
+  const { t } = useTranslation()
+
   return (
     <section className="hero">
       <div className="hero-content">
@@ -9,20 +12,20 @@ const Hero = () => {
           Kemalettin Sargın
         </h1>
 
-        <h2 className="hero-role">Full-Stack Software Developer</h2>
+        <h2 className="hero-role">{t('hero.title')}</h2>
 
         <p className="hero-subtitle">
-          .NET Core • ASP.NET Core MVC • Angular • Android
+          {t('hero.subtitle')}
         </p>
 
         <p className="hero-description">
-          Experienced in building scalable and maintainable applications used by real users in production.
+          {t('hero.description')}
         </p>
         <div className="hero-cta">
           <Link to="/timeline" className="btn btn-primary">
-            View Experience Timeline
+            {t('hero.viewTimeline')}
           </Link>
-          <a href="#contact" className="btn btn-secondary">Contact</a>
+          <a href="#contact" className="btn btn-secondary">{t('hero.contact')}</a>
         </div>
       </div>
     </section>

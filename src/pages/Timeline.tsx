@@ -1,35 +1,21 @@
-import './Timeline.css'
 import { Link } from 'react-router-dom'
 import { Briefcase, Calendar } from 'lucide-react'
 import Breadcrumb from '../components/Breadcrumb'
+import { useTranslation } from 'react-i18next'
+import './Timeline.css'
+
+interface Experience {
+    id: number;
+    title: string;
+    company: string;
+    date: string;
+    description: string;
+    type: string;
+}
 
 const Timeline = () => {
-    const experiences = [
-        {
-            "id": 1,
-            "title": "Senior Full-Stack Developer & Software Consultant",
-            "company": "Freelance",
-            "date": "2022 - Present",
-            "description": "Building end-to-end E-commerce solutions using .NET 8, PostgreSQL, and Angular with Onion Architecture, CQRS, and MediatR. Designed Bluetooth serial adapter hardware and integrated low-level communication protocols for hardware-software synchronization.",
-            "type": "work"
-        },
-        {
-            "id": 2,
-            "title": "Senior Android & Backend Developer",
-            "company": "Orjin Yazılım",
-            "date": "2018 - 2022",
-            "description": "Developed native Android applications for enterprise fleet, construction, and maintenance management systems. Engineered scalable .NET Web APIs to manage high-traffic data synchronization and complex business logic.",
-            "type": "work"
-        },
-        {
-            "id": 3,
-            "title": "Android Application Developer",
-            "company": "Kuark Dijital",
-            "date": "2013 - 2017",
-            "description": "Managed the full lifecycle of 15+ Android applications published on Google Play Store. Specialized in SDK integrations, UI/UX optimization, and maintaining app performance across diverse categories during a 4.5-year tenure.",
-            "type": "work"
-        }
-    ]
+    const { t } = useTranslation();
+    const experiences = t('timeline.experiences', { returnObjects: true }) as Experience[];
 
     return (
         <div className="timeline-page-wrapper" style={{ paddingTop: '2rem', paddingBottom: '2rem', minHeight: '100vh', backgroundColor: 'var(--background)' }}>
@@ -39,7 +25,7 @@ const Timeline = () => {
             </div>
             <div className="timeline-page">
                 <header className="timeline-header">
-                    <h1>Professional Journey</h1>
+                    <h1>{t('timeline.title')}</h1>
                 </header>
 
                 <div className="timeline-container">
@@ -60,7 +46,7 @@ const Timeline = () => {
                                 <h4 className="timeline-company">{exp.company}</h4>
                                 <p className="timeline-description">{exp.description}</p>
                                 <Link to={`/timeline/work/${exp.id}`} className="timeline-project-link">
-                                    View Projects
+                                    {t('timeline.viewProjects')}
                                 </Link>
                             </div>
                         </div>

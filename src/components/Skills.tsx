@@ -1,30 +1,28 @@
 import './Skills.css'
+import { useTranslation } from 'react-i18next'
 
 const Skills = () => {
+  const { t } = useTranslation()
+
   const skills = [
     { name: 'Android', level: 88 },
     { name: 'Kotlin', level: 85 },
-
     { name: '.NET Core', level: 90 },
     { name: 'ASP.NET Core Web API', level: 90 },
     { name: 'Entity Framework Core', level: 85 },
-
     { name: 'CQRS', level: 80 },
     { name: 'MediatR', level: 80 },
     { name: 'Clean Architecture', level: 85 },
-
     { name: 'SQL / PostgreSQL', level: 78 },
     { name: 'Angular', level: 70 },
-
     { name: 'Docker', level: 65 },
     { name: 'Git', level: 85 }
   ];
 
-
   return (
     <section className="skills" id="skills">
       <div className="skills-container">
-        <h2 className="section-title">Skills</h2>
+        <h2 className="section-title">{t('skills.title')}</h2>
 
         <div className="skills-grid">
           {skills.map((skill, index) => (

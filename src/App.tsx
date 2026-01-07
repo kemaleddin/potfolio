@@ -2,11 +2,13 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Home from './pages/Home'
 import Timeline from './pages/Timeline'
 import Work from './pages/Work'
+import LanguageSwitcher from './components/LanguageSwitcher'
 import './App.css'
 
 function App() {
   return (
     <BrowserRouter>
+      <LanguageSwitcher />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/timeline" element={<Timeline />} />

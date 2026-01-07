@@ -1,10 +1,18 @@
 import { Link, useLocation } from 'react-router-dom';
 import { ChevronRight, Home } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 import './Breadcrumb.css';
 
 const Breadcrumb = () => {
     const location = useLocation();
+    const { t } = useTranslation();
     const pathnames = location.pathname.split('/').filter((x) => x);
+
+    const getBreadcrumbName = (path: string) => {
+        if (path === 'timeline') return t('breadcrumb.timeline');
+        if (path === 'work') return t('breadcrumb.work');
+        return path.charAt(0).toUpperCase() + path.slice(1);
+    };
 
     return (
         <nav aria-label="breadcrumb" className="breadcrumb">
@@ -12,7 +20,7 @@ const Breadcrumb = () => {
                 <li className="breadcrumb-item">
                     <Link to="/" className="breadcrumb-link">
                         <Home size={16} />
-                        <span>Home</span>
+                        <span>{t('breadcrumb.home')}</span>
                     </Link>
                 </li>
                 {pathnames.map((value, index) => {
@@ -21,10 +29,6 @@ const Breadcrumb = () => {
 
                     // Skip numeric IDs in display
                     if (!isNaN(Number(value))) return null;
-
-                    // If explicit "work" segment, ensure we keep the context but maybe don't link if it is the last logical item
-                    // For /timeline/work/1, 'work' is index 1. '1' is index 2.
-                    // We want to show: Home > Timeline > Work
 
                     const isWorkPath = value === 'work';
                     // If we are at 'work' and there is a next segment which is a number, this is effectively the last "display" item
@@ -35,7 +39,7 @@ const Breadcrumb = () => {
                             <li key={to} className="breadcrumb-item">
                                 <ChevronRight size={16} className="breadcrumb-separator" />
                                 <span className="breadcrumb-current" aria-current="page">
-                                    {value.charAt(0).toUpperCase() + value.slice(1)}
+                                    {getBreadcrumbName(value)}
                                 </span>
                             </li>
                         );
@@ -45,7 +49,7 @@ const Breadcrumb = () => {
                         <li key={to} className="breadcrumb-item">
                             <ChevronRight size={16} className="breadcrumb-separator" />
                             <Link to={to} className="breadcrumb-link">
-                                {value.charAt(0).toUpperCase() + value.slice(1)}
+                                {getBreadcrumbName(value)}
                             </Link>
                         </li>
                     );

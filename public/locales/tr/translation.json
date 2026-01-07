@@ -1,0 +1,224 @@
+{
+    "hero": {
+        "title": "Full-Stack Yazılım Geliştirici",
+        "subtitle": ".NET Core • ASP.NET Core MVC • Angular • Android",
+        "description": "Gerçek kullanıcılar tarafından kullanılan ölçeklenebilir ve sürdürülebilir uygulamalar geliştirme konusunda deneyimli.",
+        "viewTimeline": "Deneyim Zaman Çizelgesi",
+        "contact": "İletişim"
+    },
+    "timeline": {
+        "title": "Profesyonel Yolculuk",
+        "backToHome": "Ana Sayfaya Dön",
+        "viewProjects": "Projeleri İncele",
+        "experiences": [
+            {
+                "id": 1,
+                "title": "Kıdemli Full-Stack Geliştirici & Yazılım Danışmanı",
+                "company": "Freelance",
+                "date": "2022 - Günümüz",
+                "description": "Onion Architecture, CQRS ve MediatR kullanarak .NET 8, PostgreSQL ve Angular ile uçtan uca E-ticaret çözümleri geliştirildi. Bluetooth seri adaptör donanımı tasarlandı ve donanım-yazılım senkronizasyonu için düşük seviyeli haberleşme protokolleri entegre edildi."
+            },
+            {
+                "id": 2,
+                "title": "Kıdemli Android & Backend Geliştirici",
+                "company": "Orjin Yazılım",
+                "date": "2018 - 2022",
+                "description": "Kurumsal filo, inşaat ve bakım yönetim sistemleri için native Android uygulamaları geliştirildi. Yüksek trafikli veri senkronizasyonu ve karmaşık iş mantığını yönetmek için ölçeklenebilir .NET Web API'leri tasarlandı."
+            },
+            {
+                "id": 3,
+                "title": "Android Uygulama Geliştirici",
+                "company": "Kuark Dijital",
+                "date": "2013 - 2017",
+                "description": "Google Play Store'da yayınlanan 15+ Android uygulamasının tüm yaşam döngüsü yönetildi. SDK entegrasyonları, UI/UX optimizasyonu ve 4.5 yıllık süre boyunca çeşitli kategorilerdeki uygulamaların performans takibi konusunda uzmanlaşıldı."
+            }
+        ]
+    },
+    "work": {
+        "title": "Çalışmalar",
+        "relatedProjects": "İlgili Projeler",
+        "noProjects": "Bu deneyim için proje bulunamadı.",
+        "projects": [
+            {
+                "id": 101,
+                "experienceId": 1,
+                "title": "E-Ticaret & Üretim Yönetim Sistemi",
+                "description": "Temiz Mimari (Clean Architecture) ile kapsamlı bir e-ticaret ve üretim yönetim sistemi geliştirildi, PayTR ve Kuveyt Türk ödeme geçitleri entegre edildi.",
+                "tech": ".NET 8 • ASP.NET Core MVC • EF Core • PostgreSQL • CQRS • MediatR",
+                "type": "Full-Stack"
+            },
+            {
+                "id": 102,
+                "experienceId": 1,
+                "title": "Kurumsal Dashboard & Yönetim Web Uygulaması",
+                "description": "İş raporlama ve rol tabanlı yetkilendirme için web tabanlı bir dashboard tasarlandı, frontend Angular 11'den 15'e yükseltildi.",
+                "tech": ".NET Core • Angular • EF Core • SQL Server",
+                "type": "Web"
+            },
+            {
+                "id": 103,
+                "experienceId": 2,
+                "title": "O-MEGA (Şantiye Yönetimi)",
+                "description": "Kurumsal düzeyde bir şantiye yönetim uygulaması. Başlangıçta Java ile yazıldı, daha sonra MVVM mimarisi kullanılarak Kotlin'e taşındı.",
+                "tech": "Android • Kotlin • Room • MVVM • Retrofit • Firebase",
+                "type": "Mobile"
+            },
+            {
+                "id": 104,
+                "experienceId": 2,
+                "title": "PBT Pro (Kurumsal Varlık & Bakım)",
+                "description": "O-mega ile aynı kod tabanını paylaşan ancak farklı modüller ve UI sunan kurumsal varlık ve bakım yönetim yazılımı.",
+                "tech": "Android • Kotlin • .NET Web API 2 • Dapper • SQL Server",
+                "type": "Mobile & Backend"
+            },
+            {
+                "id": 105,
+                "experienceId": 2,
+                "title": "ATS Pro (Araç Takip Sistemi)",
+                "description": "Google Vision API üzerinden otomatik plaka tanıma özelliğine sahip araç filo takip sistemi.",
+                "tech": "Kotlin • Google Play Services Vision • Firebase • Retrofit",
+                "type": "Mobile"
+            },
+            {
+                "id": 106,
+                "experienceId": 2,
+                "title": "Demirbaş Yönetimi",
+                "description": "Etiket yazdırma için Bluetooth üzerinden termal barkod yazıcılara bağlanan envanter yönetim uygulaması.",
+                "tech": "Kotlin • Kodein-DI • Bluetooth Printing • Google Vision API",
+                "type": "Mobile"
+            },
+            {
+                "id": 107,
+                "experienceId": 3,
+                "title": "Bursadabugün Medya Paketi",
+                "description": "Hem telefon hem de tablet tablet sürümleri için sıfırdan tam özellikli haber, radyo ve TV yayın uygulamaları geliştirildi.",
+                "tech": "Android • Java • aacdecoder • Play Services Ads • SlidingMenu",
+                "type": "Mobile"
+            },
+            {
+                "id": 108,
+                "experienceId": 3,
+                "title": "BKM Kitap",
+                "description": "Türkiye'nin önde gelen kitapçılarından biri için perakende satış ve kullanıcı etkileşimi odaklı resmi mobil uygulama.",
+                "tech": "Android • Java • Retrofit • Gson • Firebase Messaging",
+                "type": "Mobile"
+            },
+            {
+                "id": 109,
+                "experienceId": 3,
+                "title": "Samam (Akıllı Mutfak IoT)",
+                "description": "Katar merkezli bir şirket için gaz kaçağı tespiti ve çevresel kontroller içeren akıllı mutfak uygulaması geliştirildi.",
+                "tech": "Android • Eclipse-Paho MQTT Client • Retrofit • Gson",
+                "type": "Mobile/IoT"
+            },
+            {
+                "id": 110,
+                "experienceId": 3,
+                "title": "Kodlamasal",
+                "description": "Çocuklar için tasarlanmış Scratch benzeri blok kodlama eğitim uygulaması.",
+                "tech": "Android • libgdx • Firebase Auth • Firebase Database",
+                "type": "Mobile/Education"
+            },
+            {
+                "id": 111,
+                "experienceId": 3,
+                "title": "Buca Engelsiz Rota",
+                "description": "Görme engelliler için GPS kullanarak yakındaki nesneleri hesaplayan ve sesli rehberlik sağlayan navigasyon uygulaması.",
+                "tech": "Android • Google Maps API • Play Services Location",
+                "type": "Mobile"
+            },
+            {
+                "id": 112,
+                "experienceId": 3,
+                "title": "Neo (Nilüfer Etkinlik Oyunları)",
+                "description": "Kullanıcıların etkinlik alanlarında karekodlar aracılığıyla soruları yanıtlayarak puan kazandığı bir yarışma uygulaması.",
+                "tech": "Android • OkHttp • Play Services Vision • Robospice",
+                "type": "Mobile"
+            },
+            {
+                "id": 113,
+                "experienceId": 3,
+                "title": "Tofaş Spor Resmi Uygulaması",
+                "description": "Tofaş Spor Kulübü için haber ve güncellemeler sağlayan resmi Android uygulaması.",
+                "tech": "Android • Java • Retrofit • Google Play Services",
+                "type": "Mobile"
+            },
+            {
+                "id": 114,
+                "experienceId": 3,
+                "title": "Bursaspor Mobil",
+                "description": "Mevcut uygulama kod iyileştirmeleriyle yeniden yazıldı ve hem tablet hem de telefon sürümleri için online radyo entegre edildi.",
+                "tech": "Android • Java • OkHttp • Google Play Services Analytics",
+                "type": "Mobile"
+            },
+            {
+                "id": 115,
+                "experienceId": 3,
+                "title": "Olay Haber",
+                "description": "YouTube ve Dailymotion video entegrasyonlarına sahip kapsamlı haber uygulaması.",
+                "tech": "Android • OkHttp • YouTube Android Library • Fabric",
+                "type": "Mobile"
+            },
+            {
+                "id": 116,
+                "experienceId": 3,
+                "title": "Fikstür Hazırlayıcı",
+                "description": "12 tablodan oluşan karmaşık bir SQLite veritabanı ile lig ve turnuva yönetim uygulaması.",
+                "tech": "Android • SQLite • Facebook SDK • Play Services Ads",
+                "type": "Mobile"
+            },
+            {
+                "id": 117,
+                "experienceId": 3,
+                "title": "Buca Vatandaş Katılım",
+                "description": "Vatandaşların fotoğraf ekleyerek konum tabanlı sorunları bildirmelerini sağlayan katılım uygulaması.",
+                "tech": "Android • ArcGIS Android SDK • Maps API • Retrofit2",
+                "type": "Mobile"
+            },
+            {
+                "id": 118,
+                "experienceId": 3,
+                "title": "Belediye Uygulamaları (Nilüfer & Odunpazarı)",
+                "description": "Bölgesel yönetimler için resmi belediye hizmet uygulamaları geliştirildi ve sürdürüldü.",
+                "tech": "Android • OkHttp • Retrofit • Google Maps",
+                "type": "Mobile"
+            },
+            {
+                "id": 119,
+                "experienceId": 3,
+                "title": "Hayvancılık Akademisi",
+                "description": "Hayvancılık ve tarımsal eğitime adanmış eğitim uygulaması.",
+                "tech": "Android • Retrofit • Gson • Universal Image Loader",
+                "type": "Mobile"
+            },
+            {
+                "id": 120,
+                "experienceId": 3,
+                "title": "Haber & Katalog Uygulamaları",
+                "description": "RTL destekli kataloglar (Arian Design) ve abonelik tabanlı dijital gazeteler (Çağdaş Gazete) geliştirildi.",
+                "tech": "Android • Java • Özel UI Bileşenleri",
+                "type": "Mobile"
+            }
+        ]
+    },
+    "breadcrumb": {
+        "home": "Ana Sayfa",
+        "timeline": "Zaman Çizelgesi",
+        "work": "Çalışmalar"
+    },
+    "contact": {
+        "title": "İletişime Geç",
+        "description": "Yeni projeler ve fırsatları görüşmeye açığım.",
+        "footer": "© {{year}} Kemalettin Sargın"
+    },
+    "skills": {
+        "title": "Yetenekler & Teknolojiler",
+        "categories": {
+            "Backend": "Backend",
+            "Frontend": "Frontend",
+            "Mobile": "Mobil",
+            "Database": "Veritabanı",
+            "DevOps": "DevOps"
+        }
+    }
+}
