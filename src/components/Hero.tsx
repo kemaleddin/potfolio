@@ -19,11 +19,10 @@ const Hero = () => {
           Experienced in building scalable and maintainable applications used by real users in production.
         </p>
         <div className="hero-cta">
-          <a href="#projects" className="btn btn-primary">View Work</a>
-          <a href="#contact" className="btn btn-secondary">Contact</a>
-          <Link to="/timeline" className="btn btn-secondary">
+          <Link to="/timeline" className="btn btn-primary">
             View Experience Timeline
           </Link>
+          <a href="#contact" className="btn btn-secondary">Contact</a>
         </div>
       </div>
     </section>

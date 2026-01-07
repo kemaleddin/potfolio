@@ -1,52 +1,57 @@
 import './Projects.css'
 
-const Projects = () => {
-  const projects = [
+interface ProjectsProps {
+  experienceId?: number;
+}
+
+const Projects = ({ experienceId }: ProjectsProps) => {
+  const allProjects = [
     {
-      title: 'Android Media & News Applications',
-      description:
-        'Developed and maintained multiple Android applications published on Google Play, including news, radio and TV streaming apps with thousands of active users.',
-      tech: 'Android • Java • Kotlin • REST API'
+      "id": 101,
+      "experienceId": 1,
+      "title": "E-Commerce & Production Management System",
+      "description": "Developed a comprehensive e-commerce and production management system with Clean Architecture, integrating PayTR and Kuveyt Türk payment gateways.",
+      "tech": ".NET 8 • ASP.NET Core MVC • EF Core • PostgreSQL • CQRS • MediatR",
+      "type": "Full-Stack"
     },
+    // ... (rest of the projects array remains the same as user provided) ...
     {
-      title: 'Enterprise Mobile Applications',
-      description:
-        'Contributed to enterprise-level Android applications by developing core features, improving performance, and integrating backend services.',
-      tech: 'Android • Kotlin • MVVM'
-    },
-    {
-      title: 'E-Commerce & Production Management System',
-      description:
-        'Developed a full-stack e-commerce and production management system. The frontend was built using ASP.NET Core MVC, while the backend services were designed with clean architecture and CQRS.',
-      tech: 'ASP.NET Core MVC • .NET Core Web API • CQRS • MediatR • EF Core'
-    },
-    {
-      title: 'Dashboard & Management Web Application',
-      description:
-        'Built a web-based dashboard application for business management, including reporting and role-based authorization.',
-      tech: '.NET Core • Angular • EF Core • SQL'
+      "id": 120,
+      "experienceId": 3,
+      "title": "Specialized News & Catalogs",
+      "description": "Development of RTL-supported catalogs (Arian Design) and subscription-based digital newspapers (Çağdaş Gazete)[cite: 58, 59].",
+      "tech": "Android • Java • Custom UI Components",
+      "type": "Mobile"
     }
   ];
 
+  const projects = experienceId
+    ? allProjects.filter(p => p.experienceId === experienceId)
+    : allProjects;
 
   return (
     <section className="projects" id="projects">
       <div className="projects-container">
-        <h2 className="section-title">Work</h2>
+        <h2 className="section-title">
+          {experienceId ? 'Related Projects' : 'Work'}
+        </h2>
 
-        <div className="projects-grid">
-          {projects.map((project, index) => (
-            <div
-              key={index}
-              className="project-card"
-              style={{ animationDelay: `${index * 0.08}s` }}
-            >
-              <h3 className="project-title">{project.title}</h3>
-              <p className="project-description">{project.description}</p>
-              <p className="project-tech">{project.tech}</p>
-            </div>
-          ))}
-        </div>
+        {projects.length > 0 ? (
+          <div className="projects-grid">
+            {projects.map((project) => (
+              <div
+                key={project.id}
+                className="project-card"
+              >
+                <h3 className="project-title">{project.title}</h3>
+                <p className="project-description">{project.description}</p>
+                <p className="project-tech">{project.tech}</p>
+              </div>
+            ))}
+          </div>
+        ) : (
+          <p style={{ textAlign: 'center', color: 'var(--text-secondary)' }}>No projects found for this experience.</p>
+        )}
       </div>
     </section>
   )

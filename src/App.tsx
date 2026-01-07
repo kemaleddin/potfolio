@@ -10,7 +10,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/timeline" element={<Timeline />} />
-        <Route path="/work" element={<Work />} />
+        <Route path="/timeline/work/:experienceId" element={<Work />} />
       </Routes>
     </BrowserRouter>
   )
