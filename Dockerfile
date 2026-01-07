@@ -1,5 +1,7 @@
 # Build stage
 FROM node:20-alpine AS build
+LABEL version="1.1.0"
+LABEL maintainer="kemalettin.sargin@gmail.com"
 WORKDIR /app
 
 COPY package*.json ./
