@@ -14,8 +14,8 @@
             {
                 "id": 1,
                 "title": "Senior Full-Stack Developer & Software Consultant",
-                "company": "Freelance",
-                "date": "2022 - Present",
+                "company": "Etkili Yazılım",
+                "date": "2022 - 2026",
                 "description": "Building end-to-end E-commerce solutions using .NET 8, PostgreSQL, and Angular with Onion Architecture, CQRS, and MediatR. Designed Bluetooth serial adapter hardware and integrated low-level communication protocols for hardware-software synchronization."
             },
             {
@@ -42,14 +42,22 @@
             {
                 "id": 101,
                 "experienceId": 1,
-                "title": "E-Commerce & Production Management System",
-                "description": "Developed a comprehensive e-commerce and production management system with Clean Architecture, integrating PayTR and Kuveyt Türk payment gateways.",
+                "title": "bursasisekavanoz.com - E-Commerce",
+                "description": "Developed a comprehensive E-commerce platform based on .NET 8 and PostgreSQL using Layered Architecture. Successfully implemented CQRS, MediatR, and Aspect Oriented Programming (AOP) approaches to maximize code maintainability and performance. Completed the system's management panel processes as a full-stack developer using Angular.",
                 "tech": ".NET 8 • ASP.NET Core MVC • EF Core • PostgreSQL • CQRS • MediatR",
                 "type": "Full-Stack"
             },
             {
-                "id": 102,
+                "id": 121,
                 "experienceId": 1,
+                "title": "Production Management System Backend",
+                "description": "A production management system developed with Clean Architecture.",
+                "tech": ".NET 8 • ASP.NET Core MVC • EF Core • PostgreSQL • CQRS • MediatR",
+                "type": "Backend"
+            },
+            {
+                "id": 102,
+                "experienceId": 2,
                 "title": "Business Dashboard & Management Web App",
                 "description": "Designed a web-based dashboard for business reporting and role-based authorization, including an upgrade of the frontend from Angular 11 to 15.",
                 "tech": ".NET Core • Angular • EF Core • SQL Server",

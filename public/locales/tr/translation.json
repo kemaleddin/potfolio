@@ -2,8 +2,8 @@
     "hero": {
         "title": "Full-Stack Yazılım Geliştirici",
         "subtitle": ".NET Core • ASP.NET Core MVC • Angular • Android",
-        "description": "Gerçek kullanıcılar tarafından kullanılan ölçeklenebilir ve sürdürülebilir uygulamalar geliştirme konusunda deneyimli.",
-        "viewTimeline": "Deneyim Zaman Çizelgesi",
+        "description": "Gerçek kullanıcı ihtiyaçlarına odaklanan, ölçeklenebilir ve sürdürülebilir uygulamalar geliştiriyorum.",
+        "viewTimeline": "Deneyimler",
         "contact": "İletişim"
     },
     "timeline": {
@@ -14,8 +14,8 @@
             {
                 "id": 1,
                 "title": "Kıdemli Full-Stack Geliştirici & Yazılım Danışmanı",
-                "company": "Freelance",
-                "date": "2022 - Günümüz",
+                "company": "Etkili Yazılım",
+                "date": "2022 - 2026",
                 "description": "Onion Architecture, CQRS ve MediatR kullanarak .NET 8, PostgreSQL ve Angular ile uçtan uca E-ticaret çözümleri geliştirildi. Bluetooth seri adaptör donanımı tasarlandı ve donanım-yazılım senkronizasyonu için düşük seviyeli haberleşme protokolleri entegre edildi."
             },
             {
@@ -42,14 +42,22 @@
             {
                 "id": 101,
                 "experienceId": 1,
-                "title": "E-Ticaret & Üretim Yönetim Sistemi",
-                "description": "Temiz Mimari (Clean Architecture) ile kapsamlı bir e-ticaret ve üretim yönetim sistemi geliştirildi, PayTR ve Kuveyt Türk ödeme geçitleri entegre edildi.",
+                "title": "bursasisekavanoz.com - E-Ticaret",
+                "description": ".NET 8 ve PostgreSQL tabanlı, Layered Architecture ile kurgulanmış kapsamlı bir E-ticaret platformu geliştirdim. Projede kod sürdürülebilirliğini ve performansı maksimize etmek adına CQRS, MediatR ve Aspect Oriented Programming (AOP) yaklaşımlarını başarıyla uyguladım. Sistemin yönetim paneli süreçlerini Angular ile full-stack olarak tamamladım.",
                 "tech": ".NET 8 • ASP.NET Core MVC • EF Core • PostgreSQL • CQRS • MediatR",
                 "type": "Full-Stack"
             },
             {
-                "id": 102,
+                "id": 121,
                 "experienceId": 1,
+                "title": "Üretim Yönetim Sistemi",
+                "description": "Clean Architecture ile geliştirilen üretim yönetim sistemi.",
+                "tech": ".NET 8 • ASP.NET Core MVC • EF Core • PostgreSQL • CQRS • MediatR",
+                "type": "Backend"
+            },
+            {
+                "id": 102,
+                "experienceId": 2,
                 "title": "Kurumsal Dashboard & Yönetim Web Uygulaması",
                 "description": "İş raporlama ve rol tabanlı yetkilendirme için web tabanlı bir dashboard tasarlandı, frontend Angular 11'den 15'e yükseltildi.",
                 "tech": ".NET Core • Angular • EF Core • SQL Server",
