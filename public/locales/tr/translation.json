@@ -56,6 +56,22 @@
                 "type": "Backend"
             },
             {
+                "id": 122,
+                "experienceId": 1,
+                "title": "Bluetooth Seri Adaptör",
+                "description": "Endüstriyel kalite kontrol cihazları ve yazıcılardan gelen verilerin tabletlere aktarımı için Bluetooth-Serial (RS232/COM) adaptör donanımı tasarlandı. Kritik ölçüm verilerinin ve çıktıların hatasız senkronizasyonu için düşük seviyeli (low-level) haberleşme protokolleri geliştirildi.",
+                "tech": "Bluetooth • HC-06 • AT Commands • Serial Communication • PCB Design • KiCad • Max3232",
+                "type": "Hardware"
+            },
+            {
+                "id": 123,
+                "experienceId": 1,
+                "title": "Otokatalog: Otomatik ERP Entegrasyonlu Web Katalog",
+                "description": "Mikro ERP sistemleri ile tam entegre çalışan, gelişmiş bir web tabanlı katalog motoru. Ürünleri kampanya, raf ve reyon gibi kriterlere göre filtreleyerek dinamik online vitrinlerin oluşturulmasını otomatize eder; manuel yönetim süreçlerini ortadan kaldırarak gerçek zamanlı envanter doğruluğu sağlar.",
+                "tech": ".NET • SQL Server • Mikro ERP Entegrasyonu • Web API • Android",
+                "type": "Full-Stack / Otomasyon"
+            },
+            {
                 "id": 102,
                 "experienceId": 2,
                 "title": "Kurumsal Dashboard & Yönetim Web Uygulaması",

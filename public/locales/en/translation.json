@@ -56,6 +56,22 @@
                 "type": "Backend"
             },
             {
+                "id": 122,
+                "experienceId": 1,
+                "title": "Bluetooth Serial Adapter",
+                "description": "Designed and developed a Bluetooth-to-Serial (RS232/COM Port) adapter hardware to facilitate seamless data transfer from industrial quality control machinery and printers to mobile tablets. Engineered low-level communication protocols to ensure precise hardware-software synchronization and high-fidelity transmission of critical measurement data.",
+                "tech": "Bluetooth • HC-06 • AT Commands • Serial Communication • PCB Design • KiCad • Max3232",
+                "type": "Hardware"
+            },
+            {
+                "id": 123,
+                "experienceId": 1,
+                "title": "Otokatalog: Automated ERP-Integrated Web Catalog",
+                "description": "Engineered a sophisticated web-based catalog engine seamlessly integrated with Mikro ERP. This system automates the generation of dynamic online product showcases by applying advanced filtering logic for campaigns, warehouse shelves, and aisles, ensuring real-time inventory accuracy and eliminating manual catalog management.",
+                "tech": ".NET • SQL Server • Mikro ERP Integration • Web API • Android",
+                "type": "Full-Stack / Automation"
+            },
+            {
                 "id": 102,
                 "experienceId": 2,
                 "title": "Business Dashboard & Management Web App",
