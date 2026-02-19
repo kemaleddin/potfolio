@@ -1,6 +1,6 @@
 # Build stage
 FROM node:20-alpine AS build
-LABEL version="1.1.3"
+LABEL version="1.1.4"
 LABEL maintainer="kemalettin@sargin.me"
 WORKDIR /app
 

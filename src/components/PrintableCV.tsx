@@ -18,10 +18,17 @@ interface Project {
     tech: string;
 }
 
+interface Education {
+    date: string;
+    school: string;
+    department: string;
+}
+
 const PrintableCV = () => {
     const { t } = useTranslation()
     const experiences = t('timeline.experiences', { returnObjects: true }) as Experience[];
     const projects = t('work.projects', { returnObjects: true }) as Project[];
+    const educations = t('education.items', { returnObjects: true }) as Education[];
 
     // Hardcoded skills to match Skills.tsx for consistency
     const skills = [
@@ -119,6 +126,22 @@ const PrintableCV = () => {
                             {skills.map((skill, index) => (
                                 <div key={index} className="cv-skill-item">
                                     <span className="cv-skill-name">{skill.name}</span>
+                                </div>
+                            ))}
+                        </div>
+                    </section>
+
+                    {/* Education */}
+                    <section className="cv-section">
+                        <h3 className="cv-section-title">{t('education.title')}</h3>
+                        <div className="cv-education-list">
+                            {educations.map((edu, index) => (
+                                <div key={index} className="cv-education-item">
+                                    <div className="cv-education-date">{edu.date}</div>
+                                    <div className="cv-education-school">{edu.school}</div>
+                                    <ul className="cv-education-department">
+                                        <li>{edu.department}</li>
+                                    </ul>
                                 </div>
                             ))}
                         </div>

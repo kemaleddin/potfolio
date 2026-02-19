@@ -152,3 +152,20 @@
     opacity: 0.8;
     text-decoration: underline;
 }
+
+/* Education */
+.education-icon {
+    color: #4FC3F7 !important;
+}
+
+.education-department-list {
+    margin: 0.5rem 0 0 0;
+    padding-left: 1.25rem;
+    color: var(--text-secondary);
+    line-height: 1.6;
+}
+
+.education-department-list li {
+    list-style: disc;
+    font-size: 0.95rem;
+}

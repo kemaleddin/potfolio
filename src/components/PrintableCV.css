@@ -185,6 +185,43 @@
     font-weight: 500;
 }
 
+/* Education */
+.cv-education-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.cv-education-item {
+    margin-bottom: 4px;
+}
+
+.cv-education-date {
+    font-size: 12px;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 2px;
+}
+
+.cv-education-school {
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #333;
+    margin-bottom: 2px;
+}
+
+.cv-education-department {
+    margin: 0;
+    padding-left: 16px;
+    font-size: 11px;
+    color: #555;
+}
+
+.cv-education-department li {
+    list-style: disc;
+}
+
 /* Print Specifics */
 @media print {
     @page {

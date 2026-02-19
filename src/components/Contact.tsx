@@ -1,5 +1,5 @@
 import './Contact.css'
-import { Github, Linkedin, Mail, MessageCircle, Phone } from 'lucide-react'
+import { Github, Linkedin, Mail, MessageCircle, Phone, MapPin } from 'lucide-react'
 import { useTranslation } from 'react-i18next'
 
 const Contact = () => {
@@ -19,6 +19,11 @@ const Contact = () => {
         <p className="contact-description">
           {t('contact.description')}
         </p>
+
+        <div className="contact-location">
+          <MapPin size={16} />
+          <span>{t('contact.location')}</span>
+        </div>
 
         <div className="contact-links">
           {contactLinks.map((link) => (

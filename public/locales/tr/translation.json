@@ -233,6 +233,7 @@
     "contact": {
         "title": "İletişime Geç",
         "description": "Yeni projeler ve fırsatları görüşmeye açığım.",
+        "location": "Osmangazi/Bursa",
         "footer": "© {{year}} Kemalettin Sargın"
     },
     "skills": {
@@ -244,5 +245,25 @@
             "Database": "Veritabanı",
             "DevOps": "DevOps"
         }
+    },
+    "education": {
+        "title": "Eğitim",
+        "items": [
+            {
+                "date": "2017 - 2026",
+                "school": "Anadolu Üniversitesi",
+                "department": "Yönetim Bilişim Sistemleri"
+            },
+            {
+                "date": "2011 - 2014",
+                "school": "Anadolu Üniversitesi",
+                "department": "İşletme"
+            },
+            {
+                "date": "2009 - 2011",
+                "school": "Sakarya Üniversitesi",
+                "department": "Bilgisayar Programcılığı"
+            }
+        ]
     }
 }
